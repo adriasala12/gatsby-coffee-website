@@ -20,6 +20,7 @@ h5,
 h6 {
   font-family: "Courier New", Courier, monospace;
   letter-spacing: 0.25rem !important;
+  text-transform: capitalize;
 }
 
 .text-yellow {
@@ -66,4 +67,8 @@ h6 {
   background-position: center;
   background-size: cover;
   opacity: 1 !important;
+}
+
+.menu {
+  background: var(--mainGrey);
 }
