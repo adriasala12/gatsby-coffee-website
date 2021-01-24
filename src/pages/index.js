@@ -16,7 +16,7 @@ const IndexPage = ({ data }) => (
       title="coffee shop"
       styleClass="default-background"
     />
-    <Info />
+    <Info link="/about" name="about page" />
     <Menu items={data.menu} />
     <Contact />
   </Layout>
